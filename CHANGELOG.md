@@ -1,6 +1,12 @@
 # Changes to @csstools/normalize.css
 
-### 10.0.0 (May 14, 2019)
+### 10.1.0 (May 17, 2019)
+
+- Fixes: Comments targeting `Edge` are changed to `Edge 19-` in anticipation of
+  the Chromium version.
+- Fixes: Separated nested lists fixes for Edge/IE.
+
+### 10.0.0 (May 16, 2019)
 
 - Added: Removal of the margin on nested lists in Chrome and Safari.
 - Added: opinionated.css, normalize.css with classic opinionated styles.
@@ -23,7 +29,7 @@
 > “csstools” tag. I hope one day our differences are resolved and the projects
 > will be one again.
 >
-> For reference:
+> For reference within this project:
 > normalize.css resolves bugs and common browser inconsistencies.
 > opinionated.css does the same while preserving the classic opinionated styles.
 
